@@ -78,4 +78,4 @@ view = a view is a table-like object that can be queried but stores no actual da
 
 warehouse = a virtual warehouse is the object of compute in Snowflake. The size of a warehouse indicates how many nodes are in the compute cluster used to run queries. Warehouses are needed to load data from cloud storage and perform computations. They retain source data in a node-level cache as long as they are not suspended. Snowflake credits are billed for a 1-node (XSMALL) warehouse running for 1 hour (10-second minimum charge, prorated per second of run after that).
 
-`**worksheet**` = a worksheet is a tab within the Snowflake Web UI with its own distinct context from the user’s logged-in context. Each worksheet has a SQL editor space where SQL is commonly developed and ran in one location.
+`worksheet` = a worksheet is a tab within the Snowflake Web UI with its own distinct context from the user’s logged-in context. Each worksheet has a SQL editor space where SQL is commonly developed and ran in one location.
